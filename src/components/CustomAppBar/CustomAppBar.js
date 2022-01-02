@@ -17,8 +17,8 @@ const CustomAppBar = ({ label, onSearch }) => {
         <Nav>
           <InputGroup className="mb-3">
             <FormControl
-              placeholder="Search on TA Youtube"
-              aria-label="search on ta youtube"
+              placeholder="Search"
+              aria-label="Search"
               aria-describedby="basic-addon2"
               onChange={onSearch}
             />
